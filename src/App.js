@@ -8,11 +8,10 @@ function App() {
   return (
     <div className="App"> 
       <h1>heading!!!!!</h1>
-      <p>Name</p>
       <p>{name}</p>
-      <p>Number</p>
       <p>{num}</p>
-      </div>
+      { "  " ? <h1> {name}</h1> : <h1>no number</h1>};
+    </div>
       
   );
 }
