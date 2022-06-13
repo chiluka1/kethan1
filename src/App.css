@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  color : green;
+}
+
+.safe {
+  color : blue;
+}
+.error{
+  color : red;
+}
+.user-item {
+  background-color: green;
+  width : 30px;
+  padding : 250px;
+  border : solid purple 3px;
+
+
+}
